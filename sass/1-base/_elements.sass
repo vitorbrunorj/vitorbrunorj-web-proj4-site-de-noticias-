@@ -33,13 +33,50 @@ h3
     font-size: 0.8em
     padding: 3px
 
+/*Formatando destaque */
+
 .destaque h3
     background: #b10333
-    color: variables.$color-white         
+    color: variables.$color-white
 
 .entrevista h3
     background: #de003e
-    color: black 
+    color: black
+
+/*Formatando lista de notícias */
+#lista-noticias li
+    padding: 2px
+    border-bottom: 1px solid #ccc
+    height: 65px
+
+    a
+        font-size: 0.8em
+
+        h3
+            padding: 5px
+            color: #3e7ab9
+
+        p
+            font-size: 0.7em
+
+    a img
+        float: left
+        margin: 5px
+    
+    &:hover
+        background: #eee
+            
+
+.caixa-hover
+    &:hover
+        background: #eee
+
+    a
+        color: variables.$bg-color-h2
+
+        p
+            color: black
+      
 
 
 label
