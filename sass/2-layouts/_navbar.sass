@@ -1,0 +1,80 @@
+@use '../1-base/variables'
+
+#container, #rodape
+    width: 750px
+    margin: 0 auto
+
+.logo
+    width: 152px
+    height: 66px
+    background: url(../imagens/logo.png) no-repeat center
+    text-indent: -3000px
+
+/* Barra de navegação */    
+
+#topo
+    height: 150px
+    background: url(../imagens/detalhe-topo.png) no-repeat right top
+    padding-top: 25px
+
+    ul
+        margin-top: 30px
+        background: variables.$bg-color
+        float: left
+
+        li
+            float: left
+
+        a
+            font-size: 0.9em
+            display: block
+            padding: 0.5em 1.5em
+            line-height: 2.1em
+            text-decoration: none
+            color: variables.$color-white
+            background: url(../imagens/divisor.png) no-repeat left center
+
+            &:hover
+                color: variables.$color-hover
+
+        .primeiro
+            a
+                background: none
+body.home #navegacao a#home, body.brasil #navegacao a#brasil, body.internacional #navegacao a#internacional, body.saude #navegacao a#saude, body.economia #navegacao a#economia, body.ciencia #navegacao a#ciencia, body.fotos #navegacao a#fotos
+    color: variables.$color-white
+    background: variables.$bg-mark-page
+    cursor: text
+/* Configurar layout de três colunas */
+
+#conteudo
+    margin-top: 60px
+    background: variables.$bg-color-conteudo
+
+#primario, #secundario
+    width: 270px
+    float: left
+   
+
+#primario
+    margin: 0 0 20px 195px
+    background: blue
+
+#secundario
+    margin: 0 0 20px 15px
+    background: green
+
+#lateral
+    width: 180px
+    background: yellow
+    float: left
+    margin: 0 0 20px -750px
+
+/*Rodape*/        
+#container-rodape
+    clear: both
+    background: variables.$bg-color-rodape
+    padding: 20px
+
+#rodape
+
+    color: variables.$color-white
