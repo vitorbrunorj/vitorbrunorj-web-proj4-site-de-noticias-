@@ -14,6 +14,8 @@
 }
 * a {
   text-decoration: none;
+  display: block;
+  font-size: 0.9em;
 }
 * button {
   cursor: pointer;
@@ -52,11 +54,8 @@
   float: left;
 }
 #topo ul a {
-  font-size: 0.9em;
-  display: block;
   padding: 0.5em 1.5em;
   line-height: 2.1em;
-  text-decoration: none;
   color: #fff;
   background: url(../imagens/divisor.png) no-repeat left center;
 }
@@ -122,6 +121,19 @@ body.home #navegacao a#home, body.brasil #navegacao a#brasil, body.internacional
   background: #fff;
   padding: 5px;
   margin-top: 5px;
+}
+
+/* Formatar menus laterais */
+#lateral ul a {
+  padding: 3px;
+  line-height: 30px;
+  color: black;
+  border-bottom: 1px solid #f3f3f3;
+}
+#lateral ul a:hover {
+  background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+  padding-left: 20px;
+  color: #a1a1a1;
 }
 
 /*Rodape*/        
