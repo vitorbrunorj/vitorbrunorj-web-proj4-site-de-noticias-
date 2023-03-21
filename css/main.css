@@ -18,6 +18,12 @@
 * button {
   cursor: pointer;
 }
+* h2 {
+  font-size: 1em;
+  background: #294c71;
+  color: #fff;
+  padding: 5px;
+}
 
 #container, #rodape {
   width: 750px;
@@ -91,7 +97,6 @@ body.home #navegacao a#home, body.brasil #navegacao a#brasil, body.internacional
 
 #lateral {
   width: 180px;
-  background: yellow;
   float: left;
   margin: 0 0 20px -750px;
 }
@@ -104,6 +109,19 @@ body.home #navegacao a#home, body.brasil #navegacao a#brasil, body.internacional
 #secundario {
   margin: 0 0 20px 15px;
   background: green;
+}
+
+/* Caixa */
+.caixa {
+  margin: 10px 0;
+  padding: 5px;
+  background: #f3f3f3 url(../imagens/fundo-caixa.png);
+}
+
+.caixa-conteudo {
+  background: #fff;
+  padding: 5px;
+  margin-top: 5px;
 }
 
 /*Rodape*/        
