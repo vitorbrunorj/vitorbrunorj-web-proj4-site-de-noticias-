@@ -27,6 +27,19 @@
   padding: 5px;
 }
 
+label {
+  display: block;
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+
+input {
+  padding: 5px;
+  width: 148px;
+  font-size: 0.9em;
+  background-color: #fff;
+}
+
 #container, #rodape {
   width: 750px;
   margin: 0 auto;
@@ -147,20 +160,22 @@ body.home #navegacao a#home, body.brasil #navegacao a#brasil, body.internacional
   color: #fff;
 }
 
-.btn {
-  padding: 10px 15px;
-  background-color: orange;
-  color: #FFF;
+.btn-submit {
+  width: 120px;
+  background-color: #de003e;
+  color: #fff;
   border-radius: 10px;
-  border: 1px solid orange;
+  border: 2px solid #de003e;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 0.7em;
   transition: 0.5s;
   display: block;
-  margin: 15px auto;
+  margin: 10px auto;
 }
-.btn:hover {
+.btn-submit:hover {
   background-color: transparent;
+  color: #de003e;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */
