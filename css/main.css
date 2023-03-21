@@ -73,9 +73,27 @@ body.home #navegacao a#home, body.brasil #navegacao a#brasil, body.internacional
   background: #f5f5f5;
 }
 
-#primario, #secundario {
+#tres-colunas #primario, #tres-colunas #secundario {
   width: 270px;
   float: left;
+}
+
+#duas-colunas #primario {
+  width: 555px;
+  float: left;
+}
+
+#uma-coluna #primario {
+  width: 750px;
+  float: left;
+  margin: 0 0 20px 0;
+}
+
+#lateral {
+  width: 180px;
+  background: yellow;
+  float: left;
+  margin: 0 0 20px -750px;
 }
 
 #primario {
@@ -86,13 +104,6 @@ body.home #navegacao a#home, body.brasil #navegacao a#brasil, body.internacional
 #secundario {
   margin: 0 0 20px 15px;
   background: green;
-}
-
-#lateral {
-  width: 180px;
-  background: yellow;
-  float: left;
-  margin: 0 0 20px -750px;
 }
 
 /*Rodape*/        
