@@ -60,6 +60,7 @@ h3 {
 }
 #lista-noticias li a p {
   font-size: 0.7em;
+  color: black;
 }
 #lista-noticias li a img {
   float: left;
@@ -95,6 +96,11 @@ input {
 img.imagem-principal {
   width: 98%;
   border: 3px solid #dfdfdf;
+}
+
+a:visited {
+  color: #b10333;
+  padding: 2px;
 }
 
 #container, #rodape {
